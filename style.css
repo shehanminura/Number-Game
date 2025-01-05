@@ -1,0 +1,94 @@
+/* Body styling */
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center alignment */
+center {
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: darkblue;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Input box styling */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+/* Result text styles */
+h3, h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+h3 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+/* Input box styling */
+input[type="text"] {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Placeholder styling */
+input[type="text"]::placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+/* Focus effect */
+input[type="text"]:focus {
+    border-color: navy;
+    background-color: #f0f8ff;
+    box-shadow: 0 0 8px rgba(0, 0, 255, 0.5);
+}
+
+/* Hover effect */
+input[type="text"]:hover {
+    border-color: #4169e1;
+}
